@@ -1,2 +1,17 @@
 @import 'bulma.css';
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Noto+Sans:400,700|Roboto:400,700');
+body {
+    font-family: 'crimson text', Arial, Helvetica, sans-serif;
+}
+h1.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(41, 148, 254);
+}
+.main {
+    /* border: 1px solid red; */
+    width: 70%;
+    padding:10px;
+    margin-top: 100px;
+}

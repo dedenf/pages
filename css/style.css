@@ -1,17 +1,38 @@
 @import 'bulma.css';
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Noto+Sans:400,700|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700|EB+Garamond:400,700|Enriqueta');
 body {
-    font-family: 'crimson text', Arial, Helvetica, sans-serif;
+    /* font-family: 'Open Sans', Arial, Helvetica, sans-serif; */
+    font-family: 'Enriqueta', serif;
+    font-size: 17px;
+    font-weight: 400;
 }
 h1.title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: rgb(41, 148, 254);
+    font-family: 'EB Garamond', serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: rgb(6, 14, 22);
+}
+.subtitle {
+    font-family: 'Enriqueta', serif;
 }
 .main {
     /* border: 1px solid red; */
     width: 70%;
     padding:10px;
     margin-top: 100px;
+}
+p {
+    line-height: 1.6;
+    margin:10px 0;
+}
+.color-green {color:rgb(62, 78, 97)}
+.menu-links {
+    font-family: 'EB Garamond', serif;
+}
+.menu-links a {
+    color:rgb(6, 14, 22);
+}
+.menu-links a:hover {
+    color:rgb(0,0,0);
+    border-bottom: 1px solid #ccc;
 }

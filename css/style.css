@@ -131,7 +131,7 @@
 }
 body {
     /* font-family: 'Open Sans', Arial, Helvetica, sans-serif; */
-    font-family: 'Open Sans', helvetica, sans-serif;
+    font-family: 'Spectral', helvetica, sans-serif;
     font-size: 19px;
     font-weight: 400;
     font-kerning: auto;
@@ -139,8 +139,8 @@ body {
     color: rgb(26, 26, 26);
 }
 h1.title {
-    font-family: 'EB Garamond', serif;
-    font-size: 5em;
+    font-family: 'Enriqueta', serif;
+    font-size: 3em;
     font-weight: 400;
     color: rgb(6, 14, 22);
 }

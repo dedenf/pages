@@ -80,6 +80,13 @@
                             Uptime Status
                         </button>
                     </li>
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg"
+                                id="publications-tab" data-tab-target="#publications" type="button" role="tab"
+                                aria-controls="publications" aria-selected="false">
+                            Publications
+                        </button>
+                    </li>
                 </ul>
             </div>
             <div id="mainTabContent">
@@ -124,6 +131,29 @@
                      aria-labelledby="blog-status-tab">
                     <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost">Uptime Status &mdash; <a href="https://stats.uptimerobot.com/DQ0V0F5Z2v" class="text-blue-500 hover:underline">Uptimerobot &rarr;</a></h3>
                     <div class="space-y-4 list-group" id="services"></div>
+                </div>
+                
+                <!-- Status Page of Blogs Content -->
+                <div class="tab-pane hidden p-4 rounded-lg bg-slate-50" id="publications" role="tabpanel"
+                     aria-labelledby="publications-tab">
+                    <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost">Publications</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>
+                            <a href="https://www.slideshare.net/TechInAsiaID/how-to-become-a-match-maker-for-your-backend-by-deden-fathurahman">How To Become a Match Maker For Your Backend</a>
+                            <p class="text-sm text-gray-600 ml-5"></p>
+                        </li>
+                        <li>
+                            <a href="https://speakerdeck.com/dedenf/observability-within-your-devops-organization">Observability within your DevOps Organization</a>
+                            <p class="text-sm text-gray-600 ml-5"></p>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/presentation/d/1Acy4vvgbRdPencuuROVMVzObVKAGJer55tgzCp7ixVA/edit?usp=sharing">Exploring innovation in database management</a>
+                            <p class="text-sm text-gray-600 ml-5"></p>
+                        </li>
+                    </ul>
+                    
+                    
+                    
                 </div>
                 
             </div>

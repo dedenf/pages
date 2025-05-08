@@ -1,112 +1,193 @@
 <!DOCTYPE html>
-<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js no-svg">
+<html lang="en">
 <head>
-    <title>Deden Fathurahman</title>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Deden Fathurahman, @dedenf, Jenius, Developer, cloud, kubernetes" />
-    <meta name="description" content="Deden Fathurahman homepage" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="icon" href="images/dedenf-32x32.jpg" sizes="32x32" />
-    <link rel="icon" href="images/dedenf-192x192.jpg" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="images/dedenf-180x180.jpg" />
-    <meta name="msapplication-TileImage" content="images/dedenf-270x270.jpg" />
-    <!--[if IE 6]>
-    <link href="default_ie6.css" rel="stylesheet" type="text/css" />
-    <![endif]-->
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deden Fathurahman's Personal Page</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                jost: ['Jost', 'sans-serif'],
+                newsreader: ['Newsreader', 'serif'],
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        /* You can add minor custom styles here if needed,
+           but Tailwind's utility classes should cover most cases. */
+    </style>
 </head>
-<body>
-<section class="hero">
-    <div class="hero-body">
-        <div class="container main">
-            <div class="columns">
-                <div class="column is-three-fifths">
-                        <h1 class="title">
-                                Deden Fathurahman.
-                        </h1>
-                            <h2 class="subtitle">
-                                    Engineer, blogger.
-                            </h2>
-                    <p>
-                        Hi, I'm Deden Fathurahman, i love writing about tech, development, system architecture, product development/management, been working with banking, ecommerce, publishing, and other various industries.<br> 
-                        Currently working as Head IT Infrastructure & Operations at <a href="https://aladinbank.id/">Bank Aladin Syariah Tbk</a>.
-                        <br>
-                    </p>
-                    <p>Previously working at <a hre="https://www.elementresearch.com/">Element Inc.</a>, <a href="https://www.elementresearch.com/">BTPN Jenius</a>, Moka, Erafone, Qeon.</p>
-                    <p>
-                        I wrote things on my blog <a href="https://notes.dedenf.com/">here</a>, maintaining an engineering site and newsletter, which focusing on developers, engineers alike at <a href="https://jakartadev.org">jakartadev</a>, collecting things that i read, and writing technical articles there.
-                    </p>
-                    <p>
-                        Also a <em>kinda-hobby</em> site called <a href="https://pakeapa.com/">pakeapa.com</a>, and i love <a href="https://epicoffee.com">coffee</a>. <br>Mostly my handle will be @dedenf on the interwebs.
-                    </p>
-                    <p>And geeking about finance at <a href="https://seputarfinansial.com">seputarfinansial.com</a>.</p>
-                    
-                    <hr>
-                    <h2><strong>Decks</strong></h2>
-                    <ul>
-                        <li><a href="https://www.slideshare.net/TechInAsiaID/how-to-become-a-match-maker-for-your-backend-by-deden-fathurahman">How To Become a Match Maker For Your Backend</a></li>
-                        <li><a href="https://speakerdeck.com/dedenf/observability-within-your-devops-organization">Observability within your DevOps Organization</a></li>
-                        <li><a href="https://docs.google.com/presentation/d/1Acy4vvgbRdPencuuROVMVzObVKAGJer55tgzCp7ixVA/edit?usp=sharing">Exploring innovation in database management</a></li>
+<body class="bg-gray-100 font-sans antialiased text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
+
+        <!-- Welcome Message -->
+        <header class="text-left my-8 md:my-12">
+            <h1 class="text-4xl sm:text-5xl font-bold text-slate-800 mb-4 font-jost">Hej!</h1>
+            <p class="text-lg text-gray-600 font-newsreader">
+                <i>Place Where I Dump My Brain About Finance, Coding, Dev, Tech & Whatever Else I’m Hyper-Focused On.</i>
+            </p>
+        </header>
+
+        <!-- Single Card Section --> 
+        <section class="bg-white p-6 rounded-xl shadow-lg mb-8 md:mb-12">            
+            <h2 class="text-2xl font-semibold text-slate-700 font-jost">Deden Fathurahman</h2>
+            <p class="text-lg text-gray-600 font-newsreader">
+                <i>@dedenf</i>
+            </p>
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
+                I am a Tech enthusiast, experienced with IT developments, IT Operations, System Architecture, and Product Management. 15+ years across banking, ecommerce, publishing, and more.
+            </p>
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
+                These sites &darr; chronicles my ongoing obsession with where money meets technology. One week you might find a deep dive into algorithmic trading strategies, the next a breakdown of how I automated home servers. It's all personal research made public – the good, the bad, and the "why did I think this would work?"
+            </p>
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
+                I treat investing like engineering – testing hypotheses, stress-testing systems, and occasionally blowing things up (financially speaking). The projects range from serious portfolio analysis tools to ridiculous crypto experiments. If you like seeing the sausage get made in fintech, coding, and business experiments, you're in the right place.
+            </p>
+            
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">Previously at <a href="https://www.elementresearch.com/" class="text-blue-500 hover:underline">Element Inc.</a>, 
+                <a href="https://www.elementresearch.com/" class="text-blue-500 hover:underline">SMBC Jenius</a>, 
+                <a href="https://www.mokapos.com/" class="text-blue-500 hover:underline">Moka</a>, 
+                <a href="https://www.erafone.com/" class="text-blue-500 hover:underline">Erafone</a>, 
+                <a href="https://www.qeon.com/" class="text-blue-500 hover:underline">Qeon Interactive</a>, 
+                <a href="https://asiaquatro.net/" class="text-blue-500 hover:underline">Asia Quatro Net</a>, 
+                <a href="https://www.bni.co.id/" class="text-blue-500 hover:underline">BNI</a>.</p>
+            <br>
+            <!-- Tabs -->
+            <div class="mb-4 border-b border-gray-200">
+                <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="mainTab" role="tablist">
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg"
+                                id="sites-overview-tab" data-tab-target="#sites-overview" type="button" role="tab"
+                                aria-controls="sites-overview" aria-selected="false">
+                            Blogs
+                        </button>
+                    </li>
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg"
+                                id="blog-status-tab" data-tab-target="#blog-status" type="button" role="tab"
+                                aria-controls="blog-status" aria-selected="false">
+                            Uptime Status
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div id="mainTabContent">
+                <!-- List of Sites Content -->
+                <div class="tab-pane hidden p-4 rounded-lg bg-slate-50" id="sites-overview" role="tabpanel"
+                     aria-labelledby="sites-overview-tab">
+                    <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost">Overview of My Blog Projects</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>
+                            <strong>Personal Blog:</strong> <a href="https://notes.dedenf.com" class="text-blue-500 hover:underline">Notes dedenf</a>
+                            <p class="text-sm text-gray-600 ml-5">Showcasing my professional work and skills, sometimes ranting about things, geeking new technology. 
+                                <br>Sometimes I send <a href="https://dedenf.substack.com" class="text-blue-500 hover:underline">newsletter</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Tech Blog:</strong> <a href="https://jakartadev.com" class="text-blue-500 hover:underline">Jakartadev.com</a>
+                            <p class="text-sm text-gray-600 ml-5">My thoughts and articles on technology and development, curated content on DevOps, platform engineering, development trends from A.I, databases, up to everyday engineering tips, open source, etc, 
+                                published daily (almost) daily. <br>subcribe to <a href="https://jakartadev.substack.com" class="text-blue-500 hover:underline">Jakartadev Newsletter</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Personal Finance Blog:</strong> <a href="https://seputarfinansial.com" class="text-blue-500 hover:underline">Seputar Finansial</a>
+                            <p class="text-sm text-gray-600 ml-5">
+                                A blog dedicated to personal finance, investing, and financial literacy,
+                                <a href="https://seputarfinansial.substack.com" class="text-blue-500 hover:underline">Seputar Finansial Newsletter</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <strong>Musing investment assets:</strong> 
+                            
+                            <p class="text-sm text-gray-600 ml-5">A cool project I'm currently working on.
+                                <a href="https://investasiwaran.com/" class="text-blue-500 hover:underline">Investasi Waran</a>, 
+                                <a href="https://investsaham.com/" class="text-blue-500 hover:underline">Invest Saham</a>.
+                                <a href="https://investasireksadana.com/" class="text-blue-500 hover:underline">Investasi Reksa Dana</a>.
+                            </p>
+                        </li>
+                       
                     </ul>
-                    <hr class="full-width">
-                <footer>
-                    <section class="page-footer">
-                            <p><h3><strong>Social</strong></h3></p>
-                    
-                            <ul class="menu-links">
-                                    <li><a href="mailto:&#100;&#101;&#100;&#101;&#110;&#102;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="far fa-envelope"></i> Email</a></li>
-                                    <li><a href="https://github.com/dedenf"><i class="fab fa-github"></i> Github</a></li>
-                                    <li><a href="https://twitter.com/dedenf"><i class="fab fa-twitter"></i> Twitter</a></li>
-                                    <li><a href="https://www.linkedin.com/in/dedenf/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                                    <li><a href="https://keybase.io/dedenf"><i class="fab fa-keybase"></i> Keybase</a></li>
-                                    <li><a href="https://mastodon.social/@dedenf"><i class="fab fa-mastodon"></i> Mastodon</a></li>
-                            </ul>
-                            <p><h3><strong>Elsewhere</strong></h3></p>
-                            <ul >
-                                    <li><img src="https://status.dedenf.com/api/badge/2/status">&nbsp;<a href="https://notes.dedenf.com/">My Blog Notes</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/8/status">&nbsp;<a href="https://epicoffee.com/"> Epicoffee</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/9/status">&nbsp;<a href="https://pakeapa.com/">Pakeapa</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/10/status">&nbsp;<a href="https://jakartadev.org/"> Jakarta Dev</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/3/status">&nbsp;<a href="https://seputarfinansial.com/"> Seputar Finansial</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/11/status">&nbsp;<a href="https://seputardevops.com/"> Seputar Devops</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/5/status">&nbsp;<a href="https://thisisgoodnewsletter.com/">This is Good Newsletter</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/4/status">&nbsp;<a href="https://thisisgoodpodcast.com/">This Is Good Podcast</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/7/status">&nbsp;<a href="https://today.dedenf.com/">Things I Learn</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/6/status">&nbsp;<a href="https://seputarinvestasisaham.com/">Seputar Investasi Saham</a></li>
-                                    <li><img src="https://status.dedenf.com/api/badge/12/status">&nbsp;<a href="https://seputarreksadana.com/">Seputar Reksa Dana</a></li>
-                                   
-                                </ul>
-                        <hr>
-                        <p class="copyright">
-                            &copy; 2019 dedenf &mdash; <a href="https://dedenf.substack.com/subscribe?simple=true&next=https%3A%2F%2Fdedenf.substack.com%2F" title="it will be great, mostly in indonesian">Newsletter</a> &mdash; <a href="https://notes.dedenf.com/about">About</a> &mdash; <a href="https://status.dedenf.com/">Uptime Status</a>
-                        </p>
-                    </section>
-                </footer>    
+                </div>
+                <!-- Status Page of Blogs Content -->
+                <div class="tab-pane hidden p-4 rounded-lg bg-slate-50" id="blog-status" role="tabpanel"
+                     aria-labelledby="blog-status-tab">
+                    <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost">Uptime Status &mdash; <a href="https://stats.uptimerobot.com/DQ0V0F5Z2v" class="text-blue-500 hover:underline">Uptimerobot &rarr;</a></h3>
+                    <div class="space-y-4 list-group" id="services"></div>
                 </div>
                 
-                
-                
             </div>
-            
-           
-                
-        </div>
+        </section>
+
+        <footer class="text-center mt-10 md:mt-16 py-6 text-gray-500 text-sm">
+            <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p>
+            <p>Powered by Tailwind CSS</p>
+        </footer>
     </div>
-</section>
 
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
 
-    ga('create', 'UA-38299976-1', 'auto');
-    ga('send', 'pageview');
-</script>
+            // Styles for active and inactive tabs
+            const activeTabClasses = ['border-blue-600', 'text-blue-600', 'font-semibold'];
+            const inactiveTabClasses = ['border-transparent', 'hover:text-gray-600', 'hover:border-gray-300', 'text-gray-500'];
 
+            function activateTab(activeTabButton) {
+                const targetSelector = activeTabButton.getAttribute('data-tab-target');
+                const activePane = document.querySelector(targetSelector);
+
+                // Deactivate all tab buttons and hide all panes
+                tabButtons.forEach(button => {
+                    button.setAttribute('aria-selected', 'false');
+                    button.classList.remove(...activeTabClasses);
+                    button.classList.add(...inactiveTabClasses);
+                });
+                tabPanes.forEach(pane => {
+                    pane.classList.add('hidden');
+                });
+
+                // Activate the clicked tab button and show its pane
+                activeTabButton.setAttribute('aria-selected', 'true');
+                activeTabButton.classList.add(...activeTabClasses);
+                activeTabButton.classList.remove(...inactiveTabClasses);
+
+                if (activePane) {
+                    activePane.classList.remove('hidden');
+                }
+            }
+
+            // Set the first tab as active by default
+            if (tabButtons.length > 0) {
+                activateTab(tabButtons[0]);
+            }
+
+            // Add click event listeners to tab buttons
+            tabButtons.forEach(button => {
+                button.addEventListener('click', (event) => {
+                    activateTab(event.currentTarget);
+                });
+            });
+
+            // Dynamically set the current year in the footer
+            const currentYearElement = document.getElementById('currentYear');
+            if (currentYearElement) {
+                currentYearElement.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="main.js?v=20170223"></script>
 </body>
 </html>

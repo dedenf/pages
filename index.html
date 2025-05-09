@@ -32,7 +32,7 @@
     <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
 
         <!-- Welcome Message -->
-        <header class="text-left my-8 md:my-12">
+        <header class="text-left my-8 md:my-6">
             <h1 class="text-4xl sm:text-5xl font-bold text-slate-800 mb-4 font-jost">Hej!</h1>
             <p class="text-lg text-gray-600 font-newsreader">
                 <i>Place Where I Dump My Brain About Finance, Coding, Dev, Tech & Whatever Else I’m Hyper-Focused On.</i>
@@ -41,27 +41,49 @@
 
         <!-- Single Card Section --> 
         <section class="bg-white p-6 rounded-xl shadow-lg mb-8 md:mb-12">            
-            <h2 class="text-2xl font-semibold text-slate-700 font-jost">Deden Fathurahman</h2>
-            <p class="text-lg text-gray-600 font-newsreader">
-                <i>@dedenf</i>
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
+                <div class="flex flex-col sm:flex-row gap-6 items-start  border-gray-200">
+                <img
+                    src="dedenf.jpeg"
+                    alt="Placeholder author mugshot"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-2 border-gray-300 flex-shrink-0"
+                >
+                <div>
+                    <h2 class="text-2xl font-bold headline text-gray-800">Deden Fathurahman</h2>
+                    <p class="text-gray-700 font-light leading-relaxed">
+                        <i>@dedenf</i>
+                    </p>
+                    <p class="text-gray-600 text-sx">
+                        Tech enthusiast, experienced with IT developments, IT Operations, System Architecture, and Product Management. 15+ years across banking, ecommerce, publishing, and more.
+                    </p>
+                </div>
+            </div>
             </p>
             <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
-                I am a Tech enthusiast, experienced with IT developments, IT Operations, System Architecture, and Product Management. 15+ years across banking, ecommerce, publishing, and more.
+                <a href="#sites-overview-header" class="text-blue-500 hover:underline">These sites &darr; </a> my ongoing obsession with where money meets technology. One week you might find a deep dive into algorithmic trading strategies, the next a breakdown of how I automated home servers. It's all personal research made public – the good, the bad, and the "why did I think this would work?"
             </p>
             <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
-                These sites &darr; chronicles my ongoing obsession with where money meets technology. One week you might find a deep dive into algorithmic trading strategies, the next a breakdown of how I automated home servers. It's all personal research made public – the good, the bad, and the "why did I think this would work?"
-            </p>
-            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">
-                I treat investing like engineering – testing hypotheses, stress-testing systems, and occasionally blowing things up (financially speaking). The projects range from serious portfolio analysis tools to ridiculous crypto experiments. If you like seeing the sausage get made in fintech, coding, and business experiments, you're in the right place.
+                I treat investing like engineering – testing hypotheses, stress-testing systems, and occasionally blowing things up (financially speaking). The projects range from serious portfolio analysis tools, assets management. 
             </p>
             
-            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">Previously at <a href="https://www.elementresearch.com/" class="text-blue-500 hover:underline">Element Inc.</a>, 
-                <a href="https://www.elementresearch.com/" class="text-blue-500 hover:underline">SMBC Jenius</a>, 
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">Previously at 
+                <a href="https://aladinbank.id/" class="text-blue-500 hover:underline">Bank Aladin Syariah Tbk</a>, 
+                <a href="https://www.elementresearch.com/" class="text-blue-500 hover:underline">Element Inc</a>, 
+                <a href="https://jenius.com/" class="text-blue-500 hover:underline">SMBC Jenius</a>, 
                 <a href="https://www.mokapos.com/" class="text-blue-500 hover:underline">Moka</a>, 
                 <a href="https://www.erafone.com/" class="text-blue-500 hover:underline">Erafone</a>, 
                 <a href="https://www.qeon.com/" class="text-blue-500 hover:underline">Qeon Interactive</a>, 
                 <a href="https://asiaquatro.net/" class="text-blue-500 hover:underline">Asia Quatro Net</a>, 
-                <a href="https://www.bni.co.id/" class="text-blue-500 hover:underline">BNI</a>.</p>
+                <a href="https://www.bni.co.id/" class="text-blue-500 hover:underline">BNI</a>.
+            </p>
+            <p class="mt-4 text-lg sm:text-sx max-w-3xl mx-auto">Find Me on:  
+                <a href="https://github.com/dedenf" class="text-blue-500 hover:underline">Github</a>, 
+                <a href="https://gitlab.com/dedenf" class="text-blue-500 hover:underline">GitLab</a>, 
+                <a href="https://notes.dedenf.com" class="text-blue-500 hover:underline">Interwebs</a>, 
+                <a href="https://x.com/dedenf" class="text-blue-500 hover:underline">Twitter</a>, 
+                <a href="https://keybase.io/dedenf" class="text-blue-500 hover:underline">Keybase</a>.
+                or <a href="mailto:dedenf@gmail.com" class="text-blue-500 hover:underline">Mail Me!</a>.
+            </p>
             <br>
             <!-- Tabs -->
             <div class="mb-4 border-b border-gray-200">
@@ -93,18 +115,18 @@
                 <!-- List of Sites Content -->
                 <div class="tab-pane hidden p-4 rounded-lg bg-slate-50" id="sites-overview" role="tabpanel"
                      aria-labelledby="sites-overview-tab">
-                    <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost">Overview of My Blog Projects</h3>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-4 font-jost" id="sites-overview-header">Projects</h3>
                     <ul class="list-disc list-inside space-y-2 text-gray-700">
                         <li>
                             <strong>Personal Blog:</strong> <a href="https://notes.dedenf.com" class="text-blue-500 hover:underline">Notes dedenf</a>
-                            <p class="text-sm text-gray-600 ml-5">Showcasing my professional work and skills, sometimes ranting about things, geeking new technology. 
-                                <br>Sometimes I send <a href="https://dedenf.substack.com" class="text-blue-500 hover:underline">newsletter</a>.
+                            <p class="text-sm text-gray-600 ml-5">Showcasing my professional work and skills, sometimes ranting about things, geeking new technology, 
+                                sometimes I send <a href="https://dedenf.substack.com" class="text-blue-500 hover:underline">newsletter</a>, it's my discoveries that i think worth to read or watch and share.
                             </p>
                         </li>
                         <li>
-                            <strong>Tech Blog:</strong> <a href="https://jakartadev.com" class="text-blue-500 hover:underline">Jakartadev.com</a>
+                            <strong>Technology & Developments:</strong> <a href="https://jakartadev.com" class="text-blue-500 hover:underline">Jakartadev.com</a>
                             <p class="text-sm text-gray-600 ml-5">My thoughts and articles on technology and development, curated content on DevOps, platform engineering, development trends from A.I, databases, up to everyday engineering tips, open source, etc, 
-                                published daily (almost) daily. <br>subcribe to <a href="https://jakartadev.substack.com" class="text-blue-500 hover:underline">Jakartadev Newsletter</a>.
+                                published daily (almost) daily, consider subcribe to <a href="https://jakartadev.substack.com" class="text-blue-500 hover:underline">Jakartadev Newsletter</a>.
                             </p>
                         </li>
                         <li>
@@ -115,7 +137,7 @@
                             </p>
                         </li>
                         <li>
-                            <strong>Musing investment assets:</strong> 
+                            <strong>Musing about investment assets:</strong> 
                             
                             <p class="text-sm text-gray-600 ml-5">A cool project I'm currently working on.
                                 <a href="https://investasiwaran.com/" class="text-blue-500 hover:underline">Investasi Waran</a>, 
@@ -160,8 +182,8 @@
         </section>
 
         <footer class="text-center mt-10 md:mt-16 py-6 text-gray-500 text-sm">
-            <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p>
-            <p>Powered by Tailwind CSS</p>
+            <p>&copy; <span id="currentYear"></span> Deden Fathurahman</p>
+            <p><a href="https://tailwindcss.com/">Tailwind CSS</a>, rocks!</p>
         </footer>
     </div>
 
